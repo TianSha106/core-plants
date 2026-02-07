@@ -1,0 +1,137 @@
+{
+  "mod_elements": [
+    {
+      "name": "IronPlants",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_plants",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/core_plants/models/item/iron_plants.json",
+          "src/main/java/net/mcreator/coreplants/block/IronPlantsBlock.java",
+          "src/main/resources/assets/core_plants/models/block/iron_plants.json",
+          "src/main/resources/data/core_plants/loot_tables/blocks/iron_plants.json",
+          "src/main/resources/assets/core_plants/blockstates/iron_plants.json"
+        ]
+      }
+    },
+    {
+      "name": "CorePlants",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "core_plants",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "IronPlants1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_plants_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/core_plants/recipes/iron_plants_1.json"
+        ]
+      }
+    },
+    {
+      "name": "DimondPlants",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_plants",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/core_plants/models/block/diamond_plants.json",
+          "src/main/resources/assets/core_plants/blockstates/diamond_plants.json",
+          "src/main/resources/assets/core_plants/models/item/diamond_plants.json",
+          "src/main/resources/data/core_plants/loot_tables/blocks/diamond_plants.json",
+          "src/main/java/net/mcreator/coreplants/block/DimondPlantsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "DiamondPlants1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_plants_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/core_plants/recipes/diamond_plants_1.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldPlants",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_plants",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/core_plants/blockstates/gold_plants.json",
+          "src/main/resources/data/core_plants/loot_tables/blocks/gold_plants.json",
+          "src/main/resources/assets/core_plants/models/block/gold_plants.json",
+          "src/main/java/net/mcreator/coreplants/block/GoldPlantsBlock.java",
+          "src/main/resources/assets/core_plants/models/item/gold_plants.json"
+        ]
+      }
+    },
+    {
+      "name": "NetheritePlants",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_plants",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/coreplants/block/NetheritePlantsBlock.java",
+          "src/main/resources/data/core_plants/loot_tables/blocks/netherite_plants.json",
+          "src/main/resources/assets/core_plants/models/block/netherite_plants.json",
+          "src/main/resources/assets/core_plants/models/item/netherite_plants.json",
+          "src/main/resources/assets/core_plants/blockstates/netherite_plants.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.core_plants.core_plants": "矿石种子",
+      "block.core_plants.diamond_plants": "钻石种子",
+      "block.core_plants.gold_plants": "金锭种子",
+      "block.core_plants.netherite_plants": "钻石种子",
+      "block.core_plants.iron_plants": "铁锭种子"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "core_plants",
+    "modName": "矿石植物",
+    "version": "4.6.1",
+    "description": "Add some plants to get more core",
+    "author": "TianSha106, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.coreplants"
+  },
+  "mcreatorVersion": 202400342716
+}
